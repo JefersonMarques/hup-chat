@@ -1,0 +1,438 @@
+@media only screen and (max-width: 600px) {
+
+
+    .clientes-title{
+        width: 300px;
+        margin-left: -150px;
+        font-family: Poppins-Regular;
+        color:#728893;
+        font-size: 8pt;
+        position: absolute;
+        top: 12%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .clientes-logo{
+        background-image: url(/images/clientes-hupchat-01.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        height: 100px;
+        width: 80%;
+        margin-right: 20px;
+        margin-left: 20px;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        text-align: center;
+        margin-left: -150px;
+    }
+    .bobble-1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        margin-top: -100px;
+        margin-left: -150px;
+        background-image: url(/images/bobble-hup-chat.svg);
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+        border-radius: 500px;
+        background-repeat: no-repeat;
+        transition: all 300ms ease;
+    }
+    .whatsapp{
+        background-image: url(/images/whatsapp-icon-hup-chat.svg);
+        background-repeat: no-repeat;
+        border-radius: 500px;
+        background-color: rgba(255, 255, 255, 0);
+        margin: 100px;
+        width: 100px;
+        height: 100px;
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);}
+    
+    
+    .bobble-2{
+     display:none;
+    }
+    .bobble-3{
+        display: none;
+    }
+    .bobble-4{
+        display: none;
+    }
+    .bobble-5{
+        display: none;
+    }
+    .bobble-6{
+        display: none;
+    }
+    .bobble-7{
+        display: none;
+    }
+    
+    .row{
+        display: flex;
+    }
+    .col{
+        flex-direction: column;
+    }
+    .chat-1{
+        display: none;
+    }    
+    .chat-2{
+        display: none;
+    }    
+    .chat-3{
+        display: none;
+    }    
+    .menu{
+        display: none;
+    }
+    .no-border{
+        border-right: 0px;
+    }
+    .telegram {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.822);
+        border-radius: 500px;
+        background-image: url(/images/bobble-hup-chat.svg);
+    }
+    .icon-telegram{
+        background-image: url(/images/logo-telegram-hupchat.svg);
+        background-color: #229ED9;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .automation {
+        position: absolute;
+        background-image: url(/images/bobble-hup-chat.svg);
+        top: 40%;
+        right: 2%;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.822);
+        border-radius: 500px;
+        animation: automation 1.5s ease 0.5s infinite alternate none;
+        transition-timing-function: linear;
+    }
+    .icon-automation{
+        padding: 5px;
+        background-color: #f32f8b;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+        margin-top: 12.5px;
+        margin-left: 12.5px;
+    }
+    /***/
+    .facebook {
+        position: absolute;
+        background-image: url(/images/bobble-hup-chat.svg);
+        top:30%;
+        left: 20%;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.822);
+        border-radius: 500px;
+    }
+    .icon-facebook{
+        padding: 5px;
+        background-color: #1551f7;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+        border-radius: 100px;
+        width: 35px;
+        height: 35px;
+        margin-top: 12.5px;
+        margin-left: 12.5px;
+    }
+    
+    .icon-facebook img{
+        height: 30px;
+        margin-top:5px;
+        margin-left: 10px;
+    }
+    
+    /**/
+    .mult {
+        position: absolute;
+        background-image: url(/images/bobble-hup-chat.svg);
+        top: 30%;
+        right: 20%;
+        width: 70px;
+        height: 70px;
+        background-color: rgba(255, 255, 255, 0.822);
+        border-radius: 500px;
+    }
+    .icon-mult{
+        padding: 5px;
+        background-color: #f7a815;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .icon-mult img{
+        height: 30px;
+        margin-top:5px;
+        margin-left: 5px;
+    }
+    
+    .social{
+        position: absolute;
+        top: 75%;
+        left: 2%;
+    }
+    
+    .social-instagram{
+        margin: 10px;
+        padding: 3px;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(255, 21, 185);
+        border-radius: 200px;
+    }
+    .social-instagram .icon{
+        background-image: url(/images/icon_instagram.svg);
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        margin-left: 6px;
+        margin-top: 5px;
+    }
+    
+    .social-facebook{
+        margin: 10px;
+        padding: 3px;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(52, 30, 245);
+        border-radius: 200px;
+    }
+    .social-facebook .icon{
+        background-image: url(/images/icon_facebook.svg);
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+    
+    .social-youtube{
+        margin: 10px;
+        padding: 3px;
+        height: 30px;
+        width: 30px;
+        background-color: rgb(219, 26, 26);
+        border-radius: 200px;
+    }
+    .social-youtube .icon{
+        background-image: url(/images/icon_youtube.svg);
+        background-repeat: no-repeat;
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 6px;
+    }
+    
+    .direitos{
+        position: absolute;
+        right: 3%;
+        bottom: 3%;
+    }
+    .direitos p{
+        font-family: Poppins-Regular;
+        font-weight: 300;
+        font-size: 10px;
+        color: #7c7c7c;
+        text-align: right;
+    
+    }
+    .telegram-msg{
+        position: absolute;
+        left: 50%;
+        top: -130px;
+        background-color: #ffffff;
+        border-radius: 100px 100px 100px 0px;
+        width: 0px;
+        height: 0px;
+        z-index: 9;
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+    
+    
+    .telegram-msg p{
+        font-size: 0pt;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+        font-family: Poppins-Regular;
+        color: var(--title-color);
+        transition-duration: 0.3s;
+    
+    
+    }
+    .telegram-msg img{
+        position: absolute;
+        right: 2px;
+        bottom: 20px;
+        height: 0px;
+        margin-bottom: -10px;
+        transition-duration: 0.3s;
+    }
+    
+    .automation-msg{
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        background-color: #ffffff;
+        border-radius: 100px 0px 100px 100px;
+        width: 0px;
+        height: 0px;
+        z-index: 9;
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+    
+    
+    .automation-msg p{
+        font-size: 0pt;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+        font-family: Poppins-Regular;
+        color: var(--title-color);
+        transition-duration: 0.3s;
+    
+    
+    }
+    .automation-msg img{
+        position: absolute;
+        right: 2px;
+        bottom: 20px;
+        height: 0px;
+        margin-bottom: -10px;
+        transition-duration: 0.3s;
+    }
+    
+    /*****/
+    .facebook-msg{
+        position: absolute;
+        left: -45px;
+        top: -110px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        width: 0px;
+        height: 0px;
+        z-index: 9;
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+    
+    .facebook-msg p{
+        font-size: 0pt;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+        font-family: Poppins-Regular;
+        color: var(--title-color);
+        transition-duration: 0.3s;
+    
+    
+    }
+    .facebook-msg img{
+        position: absolute;
+        right: 2px;
+        bottom: 20px;
+        height: 0px;
+        margin-bottom: -10px;
+        transition-duration: 0.3s;
+     
+    }
+    
+    /**/
+    
+    .mult-msg{
+        position: absolute;
+        right: -45px;
+        top: -110px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        width: 0px;
+        height: 0px;
+        z-index: 9;
+        box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+    }
+    
+    .mult-msg p{
+        font-size: 0pt;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+        font-family: Poppins-Regular;
+        color: var(--title-color);
+        transition-duration: 0.3s;
+    
+    
+    }
+    .mult-msg img{
+        position: absolute;
+        right: 2px;
+        bottom: 20px;
+        height: 0px;
+        margin-bottom: -10px;
+        transition-duration: 0.3s;
+     
+    }
+    
+    .whatsapp img{
+        position: absolute;
+        bottom: 100px;
+        right: 80px;
+        height: 0px;
+        width: auto;
+        transition-duration: 0.3s;
+    }
+    
+    .whatsapp .dog-msg{
+        position: absolute;
+        font-size: 0pt;
+        right: 15px;
+        font-family: Poppins-Regular;
+        color: var(--title-color);
+        background-color: #ffffff;
+        border-radius: 50px 50px 50px 0px;
+        padding:  0px;
+        transition-duration: 0.3s;
+    }
+    
+}

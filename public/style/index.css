@@ -1,0 +1,661 @@
+:root{
+    --title-color:#44496b;
+}
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src: url(/font/Poppins-SemiBold.ttf);
+}
+body{
+   background-color: #edf2f8;
+}
+.logo{
+    background-image: url(/images/atendimento-whatsapp-hupchat-logo-01.svg);
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.clientes-title{
+    width: 30%;
+    font-family: Poppins-Regular;
+    color:#728893;
+    font-size: 8pt;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    text-align: center;
+    margin-left: -15%;
+    padding-bottom: 10px;
+}
+.clientes-logo{
+    background-image: url(/images/clientes-hupchat-01.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    text-align: center;
+    margin-left: -150px;
+}
+.bobble-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 350px;
+    margin-top: -175px;
+    margin-left: -175px;
+    background-image: url(/images/bobble-hup-chat.svg);
+    background-repeat: no-repeat;
+    transition: all 300ms ease;
+}
+.whatsapp{
+    background-image: url(/images/whatsapp-icon-hup-chat.svg);
+    background-repeat: no-repeat;
+    border-radius: 500px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 115px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);}
+
+    .whatsapp:active {
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, .7);
+        position: relative;
+        top: 6px;
+      }
+
+.bobble-2{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    width: 100px;
+    height: 100px;
+    transition: all 2s ease;
+}
+.bobble-3{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 70px;
+    height: 70px;
+    transition: all 2s ease;
+}
+.bobble-4{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    transition: all 1s ease;
+}
+.bobble-5{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    transition: all 2s ease;
+}
+.bobble-6{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    width: 80px;
+    height: 80px;
+    transition: all 1s ease;
+}
+.bobble-7{
+    background-image: url(/images/bobble-hup-chat.svg);
+    position: absolute;
+    top: 85%;
+    right: 15%;
+    width: 50px;
+    height: 50px;
+    transition: all 1s ease;
+}
+
+.row{
+    display: flex;
+}
+.col{
+    flex-direction: column;
+}
+.chat-1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-color: #fff;
+    box-shadow: 0 5px 0 #ebf2f7, 10px 10px 80px rgba(32, 32, 32, 0.144);
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+}
+
+.icon-hand{
+    align-self: center;
+    margin-left: 15px;
+}
+.icon-hand img{
+    width: 40px;
+}
+.hello{
+    margin-left: 15px;
+}
+.hello p{
+    font-family: Poppins-SemiBold;
+    text-align: left;
+    color: #7c7c7c;
+    font-size: 10pt;
+    margin-top: 8px;
+}
+.talk{
+    align-self: bottom;
+    margin-left: 15px;
+}
+.talk p{
+    font-family: Poppins-SemiBold;
+    text-align: left;
+    color: var(--title-color);
+    font-size: 14pt;
+    line-height: 12pt;
+    margin-top: -10px;
+}
+
+.chat-2{
+    position: absolute;
+    top: 45%;
+    left: 18%;
+    background-color: #fff;
+    box-shadow: 0 5px 0 #ebf2f7, 10px 10px 80px rgba(32, 32, 32, 0.11);
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    z-index: 9;
+}
+
+.face-star{
+    align-self: center;
+    margin-left: 15px;
+}
+.face-star img{
+    width: 40px;
+}
+.want{
+    margin-left: 15px;
+}
+.want p{
+    font-family: Poppins-SemiBold;
+    text-align: left;
+    color: #7c7c7c;
+    font-size: 10pt;
+    margin-top: 8px;
+}
+.auto-whats{
+    align-self: bottom;
+    margin-left: 15px;
+}
+.auto-whats p{
+    font-family: Poppins-SemiBold;
+    text-align: left;
+    color: var(--title-color);
+    font-size: 14pt;
+    line-height: 12pt;
+    margin-top: -10px;
+}
+.chat-3{
+
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    background-color: #fff;
+    box-shadow: 0 5px 0 #ebf2f7, 10px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    width: 80px;
+    height: 35px;
+    z-index: 9;
+}
+
+.dot-1{
+    background-color: #ebf2f7;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    z-index: 10;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+.dot-2{
+    background-color: #e4e8eb;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    z-index: 10;
+    margin-left: 7px;
+    margin-top: 12px;
+}
+
+.dot-3{
+    background-color: #ebf2f7;
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+    z-index: 10;
+    margin-left: 7px;
+    margin-top: 12px;
+}
+
+.menu{
+    position: absolute;
+    left: 50%;
+    top:65%;
+    margin-left: -200px;
+    width: 400px;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    z-index: 9;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.icon-menu{
+    align-self: center;
+    margin-left: 10px;
+    background-color: #ff9442;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
+.icon-menu img{
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    height: 15px;
+    width: 15px;
+}
+
+.block-menu{
+    align-self: center;
+    border-right: #ff9442 2px solid;
+    height: 20px;
+    margin-top: 0px;
+}
+.title-menu{
+    font-family: Poppins-SemiBold;
+    text-align: left;
+    color: var(--title-color);
+    font-size: 9pt;
+    line-height: 0px;
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right:10px ;
+}
+.subtitle-menu{
+    font-family: Poppins-Regular;
+    text-align: left;
+    color: #ff9442;
+    font-size: 7pt;
+    padding-left: 7px;
+}
+.no-border{
+    border-right: 0px;
+}
+.telegram {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 500px;
+    animation: telegram 1.5s ease 0s infinite alternate none;
+    transition-timing-function: linear;
+}
+.icon-telegram{
+    background-image: url(/images/logo-telegram-hupchat.svg);
+    background-color: #229ED9;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.automation {
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 500px;
+    animation: automation 1.5s ease 0.5s infinite alternate none;
+    transition-timing-function: linear;
+}
+.icon-automation{
+    padding: 5px;
+    background-color: #f32f8b;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/***/
+.facebook {
+    position: absolute;
+    top: 55%;
+    right: 25%;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 500px;
+    animation: facebook 1.5s ease 0s infinite alternate none;
+    transition-timing-function: linear;
+}
+.icon-facebook{
+    padding: 5px;
+    background-color: #1551f7;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon-facebook img{
+    height: 30px;
+    margin-top:5px;
+    margin-left: 10px;
+}
+
+/**/
+.mult {
+    position: absolute;
+    top: 75%;
+    right: 20%;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 500px;
+    animation: mult 1.5s ease 0.2s infinite alternate none;
+    transition-timing-function: linear;
+}
+.icon-mult{
+    padding: 5px;
+    background-color: #f7a815;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 5px 10px 80px rgba(32, 32, 32, 0.274);
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.icon-mult img{
+    height: 25px;
+    margin-top:2px;
+    margin-left: 2px;
+}
+
+.social{
+    position: absolute;
+    top: 75%;
+    left: 2%;
+}
+
+.social-instagram{
+    margin: 10px;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 21, 118);
+    border-radius: 200px;
+}
+.social-instagram .icon{
+    background-image: url(/images/icon_instagram.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.social-facebook{
+    margin: 10px;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(52, 30, 245);
+    border-radius: 200px;
+}
+.social-facebook .icon{
+    background-image: url(/images/icon_facebook.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.social-medium{
+    margin: 10px;
+    padding: 3px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 200px;
+}
+.social-medium .icon{
+    background-image: url(/images/icon_medium.svg);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.direitos{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+}
+.direitos p{
+    font-family: Poppins-Regular;
+    font-weight: 300;
+    font-size: 10px;
+    color: #7c7c7c;
+    text-align: right;
+
+}
+.telegram-msg{
+    position: absolute;
+    right: 80%;
+    top: -100%;
+    background-color: #ffffff;
+    border-radius: 100px 100px 0px 100px;
+    width: 0px;
+    height: 0px;
+    z-index: 9;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+
+.telegram-msg p{
+    font-size: 0pt;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    transition-duration: 0.3s;
+
+
+}
+.telegram-msg img{
+    position: absolute;
+    right: 2px;
+    bottom: 20px;
+    height: 0px;
+    margin-bottom: -10px;
+    transition-duration: 0.3s;
+}
+
+.automation-msg{
+    position: absolute;
+    right: 80%;
+    top: 100%;
+    background-color: #ffffff;
+    border-radius: 100px 0px 100px 100px;
+    width: 0px;
+    height: 0px;
+    z-index: 9;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+
+.automation-msg p{
+    font-size: 0pt;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    transition-duration: 0.3s;
+
+
+}
+.automation-msg img{
+    position: absolute;
+    right: 2px;
+    bottom: 20px;
+    height: 0px;
+    margin-bottom: -10px;
+    transition-duration: 0.3s;
+}
+
+/*****/
+.facebook-msg{
+    position: absolute;
+    right: 80%;
+    top: -110px;
+    background-color: #ffffff;
+    border-radius: 100px 100px 0px 100px;
+    width: 0px;
+    height: 0px;
+    z-index: 9;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.facebook-msg p{
+    font-size: 0pt;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    transition-duration: 0.3s;
+
+
+}
+.facebook-msg img{
+    position: absolute;
+    right: 2px;
+    bottom: 20px;
+    height: 0px;
+    margin-bottom: -10px;
+    transition-duration: 0.3s;
+ 
+}
+
+/**/
+
+.mult-msg{
+    position: absolute;
+    right: 80%;
+    top: -200px;
+    background-color: #ffffff;
+    border-radius: 100px 100px 0px 100px;
+    width: 0px;
+    height: 0px;
+    z-index: 9;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.075);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+.mult-msg p{
+    font-size: 0pt;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    transition-duration: 0.3s;
+
+
+}
+.mult-msg img{
+    position: absolute;
+    right: 2px;
+    bottom: 20px;
+    height: 0px;
+    margin-bottom: -10px;
+    transition-duration: 0.3s;
+ 
+}
+
+.whatsapp img{
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    height: 0px;
+    width: auto;
+    transition-duration: 0.3s;
+}
+
+.whatsapp p{
+    position: absolute;
+    font-size: 0pt;
+    right: 15px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    background-color: #ffffff;
+    border-radius: 50px 50px 50px 0px;
+    padding:  0px;
+    transition-duration: 0.3s;
+}

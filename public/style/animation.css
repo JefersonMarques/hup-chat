@@ -1,0 +1,214 @@
+
+.menu:hover{
+    top:64%;
+    box-shadow: 0 5px 0 #ebf2f7, 10px 10px 80px rgba(32, 32, 32, 0.274);
+}
+
+.telegram:hover{
+    width: 85px;
+    height: 85px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+}
+.telegram:hover .icon-telegram{
+    width: 55px;
+    height: 55px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.telegram:hover .telegram-msg{
+    width: 400px;
+    height: 140px;
+    transition-timing-function: linear;
+}
+.telegram:hover .telegram-msg p{
+    font-size: 10pt;
+    transition-delay: 0.3s;
+    margin-right: 100px;
+}
+.telegram:hover .telegram-msg img{
+    margin-right: 5px;
+    height: 90px;
+    width: auto;
+    transition-delay: 0.3s;
+}
+
+.automation:hover{
+    width: 75px;
+    height: 75px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+}
+.automation:hover .icon-automation{
+    width: 45px;
+    height: 45px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.automation:hover .automation-msg{
+    width: 400px;
+    height: 140px;
+    transition-timing-function: linear;
+}
+.automation:hover .automation-msg p{
+    font-size: 10pt;
+    transition-delay: 0.3s;
+    margin-right: 100px;
+}
+.automation:hover .automation-msg img{
+    margin-right: 5px;
+    height: 90px;
+    width: auto;
+    transition-delay: 0.3s;
+}
+.facebook:hover{
+    width: 65px;
+    height: 65px;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.facebook:hover img{
+    height: 25px;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.facebook:hover .icon-facebook{
+    height: 35px;
+    width: 35px;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.facebook:hover .facebook-msg{
+    width: 400px;
+    height: 140px;
+    transition-timing-function: linear;
+}
+.facebook:hover .facebook-msg p{
+    font-size: 10pt;
+    transition-delay: 0.3s;
+    margin-right: 100px;
+}
+.facebook:hover .facebook-msg img{
+    margin-right: 5px;
+    height: 90px;
+    width: auto;
+    transition-delay: 0.3s;
+}
+.mult:hover{
+    width: 75px;
+    height: 75px;
+    box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.mult:hover img{
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 40px;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.mult:hover .icon-mult{
+    width: 45px;
+    height: 45px;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.mult:hover .mult-msg{
+    width: 400px;
+    height: 200px;
+    transition-timing-function: linear;
+}
+.mult:hover .mult-msg p{
+    font-size: 10pt;
+    transition-delay: 0.3s;
+    margin-right: 100px;
+}
+.mult:hover .mult-msg img{
+    margin-right: 5px;
+    height: 90px;
+    width: auto;
+    transition-delay: 0.3s;
+}
+
+@media only screen and (min-width: 900px) {
+.whatsapp:hover img{
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    height: 90px;
+    width: auto;
+}
+
+.whatsapp:hover p{
+    position: absolute;
+    font-size: 10pt;
+    right: 15px;
+    font-family: Poppins-Regular;
+    color: var(--title-color);
+    background-color: #ffffff;
+    border-radius: 50px 50px 50px 0px;
+    padding:  5px 15px 5px 15px;
+}
+
+.whatsapp:active img{
+   display: none;
+}
+
+.whatsapp:active p{
+    display: none;
+}
+}
+
+@keyframes telegram {
+    0%{
+
+        top:24%;
+    }
+
+    100%{
+
+        top:26%;
+    }
+}
+/******************************/
+@keyframes automation {
+    0%{
+
+        top:45%;
+    }
+
+    100%{
+
+        top:46%;
+    }
+}
+
+/******************************/
+
+@keyframes facebook {
+    0%{
+
+        top:55%;
+    }
+
+    100%{
+
+        top:56%;
+    }
+}
+/******************************/
+@keyframes mult {
+    0%{
+
+        top:75%;
+    }
+
+    100%{
+
+        top:76%;
+    }
+}

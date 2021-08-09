@@ -1,0 +1,237 @@
+
+@media only screen and (max-width: 600px) {
+        @keyframes telegram {
+            0%{
+
+                top:40%;
+            }
+
+            100%{
+
+                top:41%;
+            }
+        }
+        /******************************/
+        @keyframes automation {
+            0%{
+
+                top:40%;
+            }
+
+            100%{
+
+                top:41%;
+            }
+        }
+
+        /******************************/
+
+        @keyframes facebook {
+            0%{
+
+                top:30%;
+            }
+
+            100%{
+
+                top:31%;
+            }
+        }
+        /******************************/
+        @keyframes mult {
+            0%{
+
+                top:30%;
+            }
+
+            100%{
+
+                top:31%;
+            }
+        }
+        /***********************************/
+
+        @keyframes dog-msg {
+            0%{
+
+                top:30%;
+            }
+
+            100%{
+
+                top:31%;
+            }
+        }
+/*************************************************************************/
+        .telegram:hover{
+            width: 85px;
+            height: 85px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+            box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+        }
+        .telegram:hover .icon-telegram{
+            width: 55px;
+            height: 55px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        .telegram:hover .telegram-msg{
+            width: 300px;
+            height: 140px;
+            transition-timing-function: linear;
+        }
+        .telegram:hover .telegram-msg p{
+            font-size: 10pt;
+            transition-delay: 0.3s;
+            margin-right: 20px;
+        }
+        .telegram:hover .telegram-msg img{
+            margin-right: 5px;
+            height: 50px;
+            width: auto;
+            transition-delay: 0.3s;
+        }
+        
+        .automation:hover{
+            width: 85px;
+            height: 85px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+            box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+        }
+        .automation:hover .icon-automation{
+            width: 45px;
+            height: 45px;
+            margin-left: 15px;
+            margin-top: 15px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        .automation:hover .automation-msg{
+            width: 340px;
+            height: 150px;
+            transition-timing-function: linear;
+        }
+        .automation:hover .automation-msg p{
+            font-size: 10pt;
+            transition-delay: 0.2s;
+            margin-right: 60px;
+        }
+        .automation:hover .automation-msg img{
+            margin-right: 5px;
+            height: 90px;
+            width: auto;
+            transition-delay: 0.2s;
+        }
+        .facebook:hover{
+            width: 85px;
+            height: 85px;
+            box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        .facebook:hover img{
+            height: 35px;
+            margin-left: 12.5px;
+            margin-top: 5px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        .facebook:hover .icon-facebook{
+            height: 45px;
+            width: 45px;
+            margin-left: 15px;
+            margin-top: 15px;
+            transition-duration: 0.2s;
+            transition-timing-function: linear;
+        }
+        .facebook:hover .facebook-msg{
+            width: 310px;
+            height: 150px;
+            transition-timing-function: linear;
+        }
+        .facebook:hover .facebook-msg p{
+            font-size: 10pt;
+            transition-delay: 0.2s;
+            margin-right: 20px;
+        }
+        .facebook:hover .facebook-msg img{
+            margin-right: 5px;
+            margin-bottom: -30px;
+            height: 90px;
+            width: auto;
+            transition-delay: 0.3s;
+        }
+        .mult:hover{
+            width: 85px;
+            height: 85px;
+            box-shadow: 10px 10px 80px rgba(32, 32, 32, 0.274);
+            transition-duration: 0.3s;
+            transition-timing-function: linear;
+        }
+        .mult:hover img{
+            margin-left: 5px;
+            margin-top: 5px;
+            height: 35px;
+            transition-duration: 0.3s;
+            transition-timing-function: linear;
+        }
+        .mult:hover .icon-mult{
+            width: 45px;
+            height: 45px;
+            margin-left: 15px;
+            margin-top: 15px;
+            transition-duration: 0.3s;
+            transition-timing-function: linear;
+        }
+        .mult:hover .mult-msg{
+            width: 300px;
+            height: 200px;
+            transition-timing-function: linear;
+        }
+        .mult:hover .mult-msg p{
+            font-size: 10pt;
+            transition-delay: 0.3s;
+            margin-right: 20px;
+        }
+        .mult:hover .mult-msg img{
+            margin-right: 5px;
+            height: 50px;
+            width: auto;
+            transition-delay: 0.3s;
+        }
+        
+        
+        .whatsapp img{
+            position: absolute;
+            bottom: 90px;
+            right: 70px;
+            height: 90px;
+            width: auto;
+            transition-delay: 0s;
+        }
+        
+        .whatsapp .dog-msg{
+            position: absolute;
+            font-size: 10pt;
+            right: 0px;
+            top: 85px;
+            font-family: Poppins-Regular;
+            color: var(--title-color);
+            background-color: #ffffff;
+            border-radius: 50px 50px 50px 0px;
+            padding:  5px 15px 5px 15px;
+            z-index: 9;
+            transition-delay: 0s;
+            transition-timing-function: linear;
+        }
+        
+        .whatsapp:active img{
+           display: none;
+        }
+        
+        .whatsapp:active .dog-msg{
+            display: none;
+        }
+}
